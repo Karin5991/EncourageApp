@@ -1,0 +1,215 @@
+#container {
+width: 320px;
+height:480px;
+background-color: ;
+margin-left: auto;
+margin-right: auto;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+　
+}
+#header {
+	font-size:40px;
+	color: #FFFFFF;
+	background-color: #0000FF;
+	text-align: center;
+	height:50px;
+	width: 320px;
+}
+
+
+
+#event{
+	text-align: left;
+	height:px;
+	width: px;
+	background-color: #FFFFFF;
+
+}
+
+.image {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#date {
+	font-size:30px;
+	height:50px;
+	width: 320px;
+
+}
+
+
+#quote {
+	margin-top: 0.2em;
+	text-align: center;
+	height:166px;
+	width: 320px;
+	background-color: #D2B48C;
+}
+
+
+
+
+#menu {
+	text-align: center;
+	height: 80px;
+	width: 320px;
+	background-color: #0000FF;
+	color: #FFFFFF;
+
+}
+
+#menu li {
+	margin-right: 0.5em;
+	display: inline-block;
+	color: #FFFFFF;
+
+}
+
+#menu ul {
+	padding: 0px;
+	text-decoration: none;
+	display: inline-block;
+
+}
+
+
+
+
+#scripturesholder {
+	text-align: left;
+	height:331px;
+	width: 320px;
+	background-color: #FFFFFF;
+}
+
+
+#spanDate {
+	font-size: px;
+	font-family:sans-serif;
+}
+
+
+
+
+
+
+form {
+    margin: 0;
+    width: 250px;
+    padding: 2.4em;
+    border: 0px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+
+}
+
+label {
+ 
+    display: ;
+    width: 30px;
+    text-align: right;
+
+}
+
+input, textarea {
+ 
+    font: 1em sans-serif;
+    width: 220px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5.8em;
+    resize: vertical;
+}
+
+.button {
+    padding-left: 90px; 
+}
+
+button {
+    margin-left: .5em;
+}
+#name2 { 
+    border: 1px solid #999;
+    width: 220px;
+    height: 20px;
+    overflow: auto; 
+    position: relative;
+
+    }
+#name { 
+    border: 1px solid #c810ca;
+    width: 320px;
+    height: 348px;
+    overflow: auto; 
+    position: relative;
+
+    }
+
+#message {
+    height: 400px;
+    width: 19px;
+    overflow: auto;
+    position: absolute;
+    text-align: center;
+}
+
+
+
+h2 {
+	text-align: center;
+	border: 1px solid #999;
+	text-decoration: none
+
+}
+
+h3 {
+	text-align: center;
+    height: 77px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
