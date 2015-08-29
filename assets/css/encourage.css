@@ -186,7 +186,15 @@ h3 {
 }
 
 
-
+#picbox {
+    margin: 0;
+    width: 77px;
+    padding: 2.4em;
+    border: 3px solid #CCC;
+    border-radius: 0em;
+    float: left;
+    height: 10px;
+}
 
 
 
