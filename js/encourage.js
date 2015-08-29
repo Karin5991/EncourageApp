@@ -67,7 +67,7 @@ quote_container.innerHTML += '<i>' + quotes[randomQuote] + '</i><br>';
 
 
 
-<script type="text/javascript">
+
     function goToNewPage()
     {
         var url = document.getElementById('list').value;
@@ -75,9 +75,6 @@ quote_container.innerHTML += '<i>' + quotes[randomQuote] + '</i><br>';
             window.location = url;
         }
     }
-</script>
-
-
 
 
 
