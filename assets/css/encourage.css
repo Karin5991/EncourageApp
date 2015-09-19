@@ -193,15 +193,19 @@ button {
 }
 
 
+
+
 h4 {
     margin-top: 3px;
     text-align: center;
    
 }
-#praybox {
+iframe {
     width: 320px;
+    height: 310px;
 
 }
+
 a {
     width: 50px;
 }

@@ -1,0 +1,46 @@
+The Plugin - ImagePicker
+This plugin allows selection of multiple images from the camera roll / gallery in a phonegap app.
+
+I attempted to add the code to the encourage.js file however, having there allow the app not to function correctly. 
+
+
+
+ function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+
+window.imagePicker.getPictures(
+    function(results) {
+        for (var i = 0; i < results.length; i++) {
+            console.log('Image URI: ' + results[i]);
+        }
+    }, function (error) {
+        console.log('Error: ' + error);
+    }
+);
+
+Example - Get at most 10 images scaled to width of 800:
+
+window.imagePicker.getPictures(
+    function(results) {
+        for (var i = 0; i < results.length; i++) {
+            console.log('Image URI: ' + results[i]);
+        }
+    }, function (error) {
+        console.log('Error: ' + error);
+    }, {
+        maximumImagesCount: 10,
+        width: 800
+    }
+);
+
+
+
+
+
+
+
